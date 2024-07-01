@@ -145,7 +145,7 @@ exports.insertUserWithAddress = [
     }
 ]
 
-// const Contact = require("../models/ContactModel")
+
 const ContactModel = require("../model/ContactModel")
 exports.insertUserWithAddressAndContacts = [
     async (req, res) => {
